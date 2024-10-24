@@ -34,7 +34,7 @@ header{
     justify-content: space-between;
 }
 .ht{
-   width: 200px;
+   width: 100%;
    height: auto;
 }
 .navlist{
@@ -284,7 +284,23 @@ textarea.input{
         height: 40px;
         font-size: 12px;
     }
+    .submit-form{
+        
+        background: var(--bg-color);
 
+    }
+    .input-box{
+        margin-left: 15%;
+        transition: 0.4s ease;
+    }
+    .btn{
+        margin-left: 35%;
+        transition: 0.4s ease;
+    }
+    .input-box .input:focus ~ label,
+    .input-box .input:valid ~ label{
+        background: var(--bg-color);
+    }
 }
 @media(max-width: 570px){
     :root{
