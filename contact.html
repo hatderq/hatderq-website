@@ -46,25 +46,29 @@
             <div class="submit-form">
                 <h4 class="third-text text" data-aos="fade-left" data-aos-duration="1400">Contact Us</h4>
                 <form action="https://formsubmit.co/derqaouihatim@gmail.com" method="POST">
-                    <div class="input-box">
-                        <input type="name" class="input" required>
-                        <label for="" >Name</label>
+    <div class="input-box">
+        <input type="text" name="name" class="input" required>
+        <label>Name</label>
+    </div>
 
-                    </div>
-                    <div class="input-box">
-                        <input type="email" name="email" class="input" required>
-                        <label for="" >Email</label>
-                    </div>                   
-                    <div class="input-box">
-                        <input type="tel" name="phone" class="input" required>
-                        <label for="" >Phone</label>                      
-                    </div>
-                    <div class="input-box">
-                        <textarea class="input" required id="message" cols="30" rows="10"></textarea>
-                        <label for="" >Message</label>
-                    </div>
-                    <button class="btn"><a href="http://google.com">submit</a></button>
-                </form>
+    <div class="input-box">
+        <input type="email" name="email" class="input" required>
+        <label>Email</label>
+    </div>
+
+    <div class="input-box">
+        <input type="tel" name="phone" class="input" required>
+        <label>Phone</label>
+    </div>
+
+    <div class="input-box">
+        <textarea name="message" class="input" required cols="30" rows="10"></textarea>
+        <label>Message</label>
+    </div>
+
+    <!-- This is a pure submit button (no <a> inside!) -->
+    <button type="submit" class="btn">Submit</button>
+</form>
             </div>
         </div>
     </div>
